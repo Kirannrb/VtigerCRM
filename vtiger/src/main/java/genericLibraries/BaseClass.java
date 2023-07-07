@@ -73,6 +73,7 @@ public class BaseClass {
 	public void navigateToApp() throws IOException {	
 		home=new HomePage(driver);
 		org=new OrganizationsPage(driver);
+		System.out.println("BeforeMethod");
 		
 	}
 
