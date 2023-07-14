@@ -12,5 +12,6 @@ public class LoginToVtiger_Test extends BaseClass {
 	public void validateLoginPage() throws InterruptedException {
 
 	System.out.println("Successfully Logined to app");
+	System.out.println("Successfully Logined");
 	}
 }
