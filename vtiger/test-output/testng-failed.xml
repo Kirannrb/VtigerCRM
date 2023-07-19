@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtiger_crm.CreateNewOrganization_Test">
+      <class name="vtiger_crm.CreateDuplicateLead_Test">
         <methods>
           <include name="teardownThheBrowser"/>
-          <include name="newOrganization"/>
+          <include name="newLead"/>
           <include name="LaunchingBrowser"/>
           <include name="navigateToApp"/>
           <include name="checkTheTestResult"/>
         </methods>
-      </class> <!-- vtiger_crm.CreateNewOrganization_Test -->
+      </class> <!-- vtiger_crm.CreateDuplicateLead_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
